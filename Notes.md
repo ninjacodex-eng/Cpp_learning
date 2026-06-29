@@ -1,6 +1,8 @@
 C++ Programming Notes
 
+
 Basic Syntax
+
 
 ```cpp
 #include <iostream>
@@ -13,6 +15,7 @@ cout<<"hi" <<endl;
 ```
 
 Input Syntax
+
 Note —> we use >> in cin and << in cout
 Typically cin = scan and cout = print
 
@@ -29,6 +32,8 @@ return 0;
 ```
 
 Data Types
+
+
 float _ = ….
 
 var _=…..
@@ -38,7 +43,10 @@ double _=… (for pi i.e multiple decimal places)
 
 _ ⇒ refers to variable name.
 
+
 Operators
+
+
 Wont discuss it much as i have dont it in C concepts are same .
 
 ```cpp
@@ -55,7 +63,9 @@ return 0;
 }
 ```
 
+
 AND,OR,NOT GATES
+
 
 ```cpp
 #include <iostream>
