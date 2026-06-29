@@ -1,27 +1,24 @@
-# C++ Programming Notes
+C++ Programming Notes
 
----
-
-## Basic Syntax
+Basic Syntax
 
 ```cpp
 #include <iostream>
-
 using namespace std;
-
 int main(){
 
 cout<<"hi" <<endl;
 
 }
+```
+
 Input Syntax
 Note —> we use >> in cin and << in cout
 Typically cin = scan and cout = print
 
-C++
+```cpp
 #include <iostream>
 using namespace std;
-
 int main() {
 int a;
 cout << "enter pls : " << endl;
@@ -29,15 +26,14 @@ cin >> a;
 cout << "the number u entered is : " << a;
 return 0;
 }
+```
+
 Data Types
 float _ = ….
 
 var _=…..
-
 int _=…..
-
 bool _=….
-
 double _=… (for pi i.e multiple decimal places)
 
 _ ⇒ refers to variable name.
@@ -45,10 +41,9 @@ _ ⇒ refers to variable name.
 Operators
 Wont discuss it much as i have dont it in C concepts are same .
 
-C++
+```cpp
 #include <iostream>
 using namespace std;
-
 int main() {
 int a, b;
 cout << "Enter 2 numbers : ";
@@ -56,11 +51,13 @@ cin >> a;
 cin >> b;
 
 cout << "Addition is : " << a + b;
-
 return 0;
 }
+```
+
 AND,OR,NOT GATES
-C++
+
+```cpp
 #include <iostream>
 using namespace std;
 int main() {
@@ -73,6 +70,4 @@ int main() {
     cout << "~(a) is " << ~(a);// Complement
     return 0;
 }
-    cout << "~(a) is " << ~(a);// Complement
-    return 0;
-}
+```
