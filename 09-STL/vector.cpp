@@ -1,25 +1,13 @@
 #include <iostream>
+#include <bits/stdc++.h>
+#include <iomanip>
 using namespace std;
-
-class BankAccount {
-private:
-    double balance;
-
-public:
-    void setBalance(double amount) {
-        if (amount >= 0) {
-            balance = amount;
-        }
+int main(){
+    vector<int>num={5,4,2,6};
+    sort(num.begin(),num.end());
+    cout<<"This is ordered set : ";
+    for(int n:num){
+        cout<<n<<setw(2)<<"";
     }
-
-    double getBalance() {
-        return balance;
-    }
-};
-
-int main() {
-    BankAccount myAccount;
-    myAccount.setBalance(500.0);
-    cout << "Balance: " << myAccount.getBalance() << endl;
     return 0;
-}
+};
