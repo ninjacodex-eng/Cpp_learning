@@ -7,7 +7,7 @@ int main(){
     sort(num.begin(),num.end());
     cout<<"This is ordered set : ";
     for(int n:num){
-        cout<<n<<setw(2)<<"";
+        cout<<n<<setw(2)<<""; // if u give space in these inverted commas u dont need to add iomanip then no need for setw().
     }
     return 0;
 };
