@@ -1,15 +1,18 @@
 #include <iostream>
 using namespace std;
-int fact(int num){
-    if (num==0)
-        return 1;
+int factorial(int num){
+    if (num==0){
+    return 1;
+}
     else
-        return num * fact(num-1);
-};
+    {
+    return num * factorial(num-1);
+     }
+}
 int main(){
     int num;
-    cout<<"Enter the no : ";
+    cout<<"Enter no : ";
     cin>>num;
-    cout<<fact(num)<<endl;
+    cout<<factorial(num)<<endl;
     return 0;
-};
+}
