@@ -1,23 +1,20 @@
- #include<iostream>
+#include <iostream>
 using namespace std;
-int largest(const int list[],int lowerindex,int upperindex)
-{
-    int max;
-        if (lowerindex==upperindex)
-        {
-                return list[lowerindex];
-        }
-    else
-        {
-            max=largest(list,lowerindex+1,upperindex);
-            if (list[lowerindex]>=max)
-                return list[lowerindex];
-        else    
-             return max;
-    };
-};
+int largest(const int list[],int lowerlimit,int upperlimit){
+     int max;
+    if (lowerlimit==upperlimit){
+        return list[lowerlimit];
+    }
+    else {
+        int max=largest(list,lowerlimit+1,upperlimit);
+        if (list[lowerlimit]>=max)
+            return list[lowerlimit];
+        else 
+            return max;
+   }
+}
 int main(){
-    int num[4]={6,4,3,2};
-    cout<<"The largest number is : "<<largest(num,0,3);
+   int num[4]={6,5,3,2};
+    cout<<"Largest numebr is : "<<largest(num,0,3);
     return 0;
 };
