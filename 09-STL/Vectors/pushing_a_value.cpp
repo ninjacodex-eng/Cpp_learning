@@ -6,6 +6,6 @@ num.push_back(78);
 cout<<"So the outcome is : ";
 for(int i : num){
             cout<<i<<" ";
-    };
+    }
 return 0;
-};
+}
