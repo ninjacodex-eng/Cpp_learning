@@ -10,4 +10,4 @@ int main(){
         cout<<n<<setw(2)<<""; // if u give space in these inverted commas u dont need to add iomanip then no need for setw().
     }
     return 0;
-};
+}
