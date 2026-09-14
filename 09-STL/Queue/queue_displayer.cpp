@@ -11,6 +11,6 @@ int main(){
     while(!temp.empty()){
             cout<<temp.front()<<" ";
             temp.pop();
-    };
+    }
             return 0;
-};
+}
