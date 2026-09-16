@@ -8,6 +8,6 @@ int main(){
    d.emplace_front(56);
     for(int i : d){
       cout<<i<<" ";
-  };
+  }
   return 0;
-};
+}
