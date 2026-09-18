@@ -2,7 +2,7 @@
 using namespace std;
 void name(int n){
     if(n==0)
-        return;
+        return 0;
 cout<<"charlizard"<<endl;
 name(n-1);
 }
