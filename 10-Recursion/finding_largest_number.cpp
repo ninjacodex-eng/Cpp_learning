@@ -15,6 +15,6 @@ int largest(const int list[],int lowerlimit,int upperlimit){
 }
 int main(){
    int num[4]={6,5,3,2};
-    cout<<"Largest numebr is : "<<largest(num,0,3);
+    cout<<"Largest number is : "<<largest(num,0,3);
     return 0;
 };
